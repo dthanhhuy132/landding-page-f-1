@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Desktop App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="headder__image-wrapper">
+                <img src="./img/app.jpg" alt="" class="header__img" />
+            </div>
+
+            <div class="header__download hide-on-mobile">
+                <div class="header__dowload-title">Take photo with our app</div>
+                <p class="header__download-desc">
+                    Super simple installment free of charge
+                </p>
+
+                <button class="header__download-btn d-flex ">
+                    Download
+                    <span class="icon-download">
+                        <i class="fa-brands fa-android"></i>
+                        <i class="fa-brands fa-apple icon-download--ios"></i>
+                        <i class="fa-brands fa-windows"></i>
+                    </span>
+                </button>
+            </div>
+
+            <button class="header__download-btn d-flex show-on-mobile">
+                Download
+                <span class="icon-download">
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-apple icon-download--ios"></i>
+                    <i class="fa-brands fa-windows"></i>
+                </span>
+            </button>
+
+            <div class="header__tour">Take Tour &gt;</div>
+        </header>
+
+        <!-- App -->
+        <div class="app app-clarify">
+            <div class="app-clarify__container p-15 p-0">
+                <div class="app-clarify__desc">
+                    <div class="app-clarify__desc-title app-clarify__desc-title--responsive">The App</div>
+                    <p class="app-clarify__desc-buy">Why buy it?</p>
+                    <p class="app-clarify__desc-desc">
+                        Take photo like a pro.
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veniam,itaque placeat. In, accusantium molestiae et odio fugiat
+                            quia explicabo sit quasi. Dolores quaerat vitae pariatur
+                            voluptatibus blanditiis aut tempora facilis!. Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Veniam,itaque placeat.
+                            In, accusantium molestiae et odio fugiat quia explicabo sit
+                            quasi. Dolores quaerat vitae pariatur voluptatibus blanditiis
+                            aut tempora facilis!
+                        </span>
+                    </p>
+
+                    <button class="app__desc-download">
+                        <i class="fa-solid fa-download"></i> &nbsp; Download Application
+                    </button>
+
+                    <p class="app__desc-available">
+                        <span>Available for</span>
+                        <span class="icon-download">
+                            <i class="fa-brands fa-android main-color"></i>
+                            <i class="fa-brands fa-apple icon-download--ios"></i>
+                            <i class="fa-brands fa-windows blue-color"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="app-clarify__img-wrapper app-clarify__img-wrapper--app">
+                    <img src="/img/img_app.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Clarify -->
+        <div class="clarify app-clarify">
+            <div class="app-clarify__container app-clarify__container--clarify p-15 p-0">
+                <div class="app-clarify__desc app-clarify__desc--clarify">
+                    <div class="app-clarify__desc-title">Clarify</div>
+                    <p class="app-clarify__desc-buy red-color">Pixel, who?</p>
+                    <p class="app-clarify__desc-desc">
+                        Take photo like a pro.
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veniam,itaque placeat. In, accusantium molestiae et odio fugiat
+                            quia explicabo sit quasi. Dolores quaerat vitae pariatur
+                            voluptatibus blanditiis aut tempora facilis!. Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit. Veniam,itaque placeat.
+                            In, accusantium molestiae et odio fugiat quia explicabo sit
+                            quasi. Dolores quaerat vitae pariatur voluptatibus blanditiis
+                            aut tempora facilis!
+                        </span>
+                    </p>
+                </div>
+
+                <div class="app-clarify__img-wrapper ">
+                    <img src="/img/app5.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="features">
+            <div class="feature__container">
+                <div class="main-title">Features</div>
+                <p class="main-desc">This app is so lorem ipsum.</p>
+
+                <div class="feature__list">
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-bolt-lightning feature__item-icon" style="color: #ff9800"></i>
+                        <span class="feature__item-title">Fast</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-heart feature__item-icon" style="color: red"></i>
+                        <span class="feature__item-title">Heart</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-camera feature__item-icon" style="color: #d2be0e"></i>
+                        <span class="feature__item-title">Camera</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-battery-full feature__item-icon" style="color: #4daf50"></i>
+                        <span class="feature__item-title">Power</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-gem feature__item-icon" style="color: #fff"></i>
+                        <span class="feature__item-title">Sharp</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-cloud feature__item-icon" style="color: #2b96f3"></i>
+                        <span class="feature__item-title">Cloud</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-earth-americas feature__item-icon" style="color: #ffc107"></i>
+                        <span class="feature__item-title">Global</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-box feature__item-icon" style="color: #00bcd4"></i>
+                        <span class="feature__item-title">Storage</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-user-shield feature__item-icon" style="color: #fcf5e6"></i>
+                        <span class="feature__item-title">Safe</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-shield-halved feature__item-icon" style="color: #ff9800"></i>
+                        <span class="feature__item-title">Stable</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-wifi feature__item-icon" style="color: #8d8c8c"></i>
+                        <span class="feature__item-title">Connect</span>
+                    </a>
+                    <a class="feature__item" href="#">
+                        <i class="fa-solid fa-image feature__item-icon" style="color: #e93763"></i>
+                        <span class="feature__item-title">HD</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing -->
+        <div class="pricing">
+            <div class="pricing__container p-15 p-0">
+                <div class="main-title main-title--pricing">Prising</div>
+                <p class="main-desc main-desc--pricing">Choosing a prising plan that fits your needs</p>
+
+                <div class="pricing__detail">
+                    <div class="pricing__detail-item pricing__basic">
+                        <div class="pricing__title">Basic</div>
+                        <div class="pricing__item">
+                            <span class="pricing__item-text"><strong>250</strong> Photos</span>
+                            <span class="pricing__item-text"><strong>10</strong> Features</span>
+                            <span class="pricing__item-text"><strong>No</strong> Ads</span>
+                            <span class="pricing__item-text"><strong>Office hours</strong> Support</span>
+                            <span class="pricing__item-text pricing__item-text--price">$ 25</span>
+                        </div>
+                        <div class="pricing__download">
+                            <button class="pricing__download-btn">
+                                <i class="fa-solid fa-download"></i>
+                                Download
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pricing__detail-item pricing__premium">
+                        <div class="pricing__title pricing__detail--premium">Premium</div>
+                        <div class="pricing__item">
+                            <span class="pricing__item-text"><strong>1000</strong> Photos</span>
+                            <span class="pricing__item-text"><strong>50</strong> Features</span>
+                            <span class="pricing__item-text"><strong>No</strong> Ads</span>
+                            <span class="pricing__item-text"><strong>Endless</strong> Support</span>
+                            <span class="pricing__item-text pricing__item-text--price">$ 99</span>
+                        </div>
+                        <div class="pricing__download">
+                            <button class="pricing__download-btn">
+                                <i class="fa-solid fa-download"></i>
+                                Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__icon-list">
+                <i class="fa-brands fa-facebook-square"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="footer__text">Powered by <a href='/' class="footer__link">w3.css</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

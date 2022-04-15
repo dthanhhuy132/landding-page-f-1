@@ -1,0 +1,99 @@
+.hide-on-pc {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  * {
+    user-select: none !important;
+  }
+
+  .headder__image-wrapper {
+    height: 60vh;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .show-on-mobile {
+    display: flex;
+  }
+
+  /* Header  */
+
+  .headder__image-wrapper {
+    position: relative;
+    top: 40px;
+  }
+  .header__download-btn {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    font-weight: 500;
+    font-size: 1.8rem;
+    border-radius: 0;
+  }
+
+  .header__tour {
+    position: absolute;
+    top: calc(100% + 80px);
+    transform: translateY(-100%);
+    width: 100%;
+    right: 0;
+
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 0;
+    opacity: 1;
+  }
+
+  /* App-Clarify */
+  .app-clarify__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-clarify__desc {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .app-clarify__desc-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .app-clarify__desc-title--responsive {
+    margin-top: 80px;
+  }
+
+  .app-clarify__desc-buy {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .app-clarify__desc-desc {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .app__desc-available {
+    display: none;
+  }
+
+  /* Feature */
+  .feature__item-icon {
+    font-size: 5rem;
+  }
+  /* Pricing */
+
+  .pricing__detail {
+    flex-direction: column;
+  }
+  .pricing__detail-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+} ;
