@@ -147,6 +147,11 @@ body {
     top: -1px;
 }
 
+.icon-download--ios-download {
+    position: relative;
+    top: -2px;
+}
+
 /* ------------------------------App */
 
 .app-clarify__container {
