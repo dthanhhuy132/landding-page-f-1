@@ -2,6 +2,10 @@
   display: none;
 }
 
+.show-on-mobile {
+  display: none;
+}
+
 @media (max-width: 767px) {
   * {
     user-select: none !important;
