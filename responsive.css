@@ -83,8 +83,13 @@
     font-size: 2rem;
   }
 
+  .app__desc-download {
+    margin: 10px auto;
+  }
+
   .app__desc-available {
-    display: none;
+    justify-content: center;
+    margin-bottom: 30px;
   }
 
   /* Feature */
